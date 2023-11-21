@@ -10,7 +10,7 @@ to support it.  Most of them I lack, so it's a long shot.  However, the fact
 that ext4fuse is read-only also means that it's completely safe to use.
 
 ## Installation
-### OS X 
+### Intel Mac
 If you use OS X I suggest you rely on the [homebrew project](http://mxcl.github.com/homebrew/).
 
 Once you have homebrew installed, simply type the following two commands:
@@ -26,6 +26,9 @@ have readonly permissions to the disks.  Use this:
 
 Also, you will need to know the <device> name of your ext4 partition.  Take a
 look at the Mac Disk Utility.  It should be something _like_ `/dev/disk0s5`.
+
+### M1 Mac
+Download the release version.
 
 ### FreeBSD 
 Simply install it through the ports tree:
